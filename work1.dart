@@ -28,7 +28,7 @@ class Rectangle extends Shape implements Drawable{
   Rectangle(this.width,this.height);
   @override
   calculateArea(){
-    return print("Area of Rectangle : ${width*height}");
+   print("Area of Rectangle : ${width*height}");
   }
   @override
   draw() {

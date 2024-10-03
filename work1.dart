@@ -4,7 +4,7 @@ abstract class Shape{
   calculateArea();
 }
 //interface
-abstract class Drawable implements Shape{
+abstract class Drawable{
   draw();
 }
 
